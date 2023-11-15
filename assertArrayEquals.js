@@ -21,5 +21,5 @@ const assertArrayEqual = function(array1, array2) {
 };
 
 
-
+assertArrayEqual([1, 2, 3], [1, 2, 3]);
 
