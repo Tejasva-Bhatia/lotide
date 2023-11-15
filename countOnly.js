@@ -5,6 +5,26 @@ const assertEqual = function(actual, expected) {
     console.log(`✅✅✅ Assertion Passed:  ${actual}  ===  ${expected}`);
 
 };
+/*-------Ai-------feedback for O(n) complexity---------
+const countOnly = function(allItems, itemsToCount) {
+  let resultObject = {};
+  for (const item of allItems) {
+    if (itemsToCount[item]) {
+      resultObject[item] ? resultObject[item]++ : resultObject[item] = 1;
+    }
+  }
+  return resultObject;
+};
+
+
+
+*/
+
+
+
+
+
+
 
 // allItems: an array of strings that we need to look through
 // itemsToCount: an object specifying what to count
