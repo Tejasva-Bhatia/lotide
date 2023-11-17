@@ -20,14 +20,12 @@ const assertArrayEqual = function(array1, array2) {
 };
 
 const findKey = function(object, callback) {
-  let ansKey = "";
+  
   for (const item in object) {
     if (callback(object[item])) {
-      ansKey += item;
-      break;
+      return item;
     }
   }
-  return ansKey;
 };
 
 let result1 = findKey({
