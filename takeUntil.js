@@ -24,7 +24,7 @@ const takeUntil = function(array, callback) {
   let ans = [];
   for (let i = 0; i < array.length; i++) {
     if (callback(array[i])) {
-      break; //
+      break;
     }
     ans.push(array[i]);
   }
