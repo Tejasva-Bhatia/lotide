@@ -12,7 +12,9 @@ describe("#head", () => {
   it("returns 'Hello' for ['Hello', 'Lighthouse', 'Labs']", () => {
     assert.strictEqual(head(['Hello', 'Lighthouse', 'Labs']), 'Hello');
   });
-  
+  it("returns undefined for an empty array", () => {
+    assert.strictEqual(head([]), undefined);
+  });
 });
 
 
