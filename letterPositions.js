@@ -34,6 +34,11 @@ const letterPositions = function(sentence) {
   return results;
 };
 
+module.exports = letterPositions;
+
+
+
+
 const check = letterPositions("Apple");
 assertArrayEqual(check['p'], [1, 2]);
 assertArrayEqual(check['p'], [1, 3]);

@@ -19,6 +19,8 @@ const countLetters = function(inputString) {
   return result;
 };
 
+module.exports = assertEqual;
+
 const result = countLetters('LHL');
 console.log(result);
 assertEqual(result['L'],2);
