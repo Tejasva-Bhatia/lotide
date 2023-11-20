@@ -1,8 +1,5 @@
-
-const assertArraysEqual = require('./assertArraysEqual');
-
 // ACTUAL FUNCTION
-const middle = function (array) {
+const middle = function(array) {
   //...
   let middleElement = [];
   let l = array.length;
