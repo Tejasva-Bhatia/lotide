@@ -22,6 +22,10 @@ This project was created and published by me as part of my learnings at Lighthou
 
 `const results = _.tail([1, 2, 3]) // => [2, 3]`
 
+## Published Library
+![Lotide Logo](lotide.png)
+
+
 ## Documentation
 
 The following functions are currently implemented:
