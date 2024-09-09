@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@bhatiatejasva15/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Clone of lodash library aka lotide",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Tejasva-Bhatia/lotide.git"
   },
-  "author": "",
+  "author": "Tejasva Bhatia <bhatiatejasva15@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tejasva-Bhatia/lotide/issues"
