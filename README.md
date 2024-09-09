@@ -1,6 +1,6 @@
 # Lotide
 
-A mini clone of the [Lodash](https://lodash.com) library.
+A mini clone of the [Lodash](https://lodash.com) library, created to deepen my understanding of utility libraries. This project includes essential functions for array and object manipulation, string analysis, and more, demonstrating proficiency in JavaScript and functional programming. It is designed for educational purposes and showcases custom implementations of common Lodash functionalities.
 
 ## Purpose
 
